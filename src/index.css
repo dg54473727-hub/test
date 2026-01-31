@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'humour';
+  src: url('/font/Humour-Normal.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'handwriten';
+  src: url('/font/mogihaPen.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
