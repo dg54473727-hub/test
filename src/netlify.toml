@@ -1,8 +1,0 @@
-[build]
- command = "npm run build"
- pulish = "dist"
-
- [[riderects]]
- from = "/"
- to = "/index.html"
- status = 200 
