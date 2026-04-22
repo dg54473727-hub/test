@@ -6,7 +6,7 @@ import Home from "./pages/home";
 import ArtistPage from "./pages/artist";
 import SongPage from "./pages/song";
 import NotFound from "./pages/notfound";
-import SongInfoPage from "./pages/songPage";
+import SongDetail from "./pages/songPage";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route
           path="/songs/kuuninaru"
           element={
-            <SongInfoPage
+            <SongDetail
               img="https://i.ytimg.com/vi/f6TytcA47rI/hq720.jpg"
               name="くうになる"
               vocal="初音ミク / 可不"
@@ -33,7 +33,7 @@ function App() {
         <Route
           path="/songs/helohowareyou"
           element={
-            <SongInfoPage
+            <SongDetail
               img="https://i.ytimg.com/vi/-M4sAQYi6r4/hqdefault.jpg"
               name="くうになる"
               vocal="初音ミク"
@@ -46,7 +46,7 @@ function App() {
         <Route
           path="/songs/aiturazenindoushoukai"
           element={
-            <SongInfoPage
+            <SongDetail
               img="https://i.ytimg.com/vi/ZUwaudw8ht0/hq720.jpg"
               name="あいつら全員同窓会"
               vocal="ACAね"
@@ -59,7 +59,7 @@ function App() {
         <Route
           path="/songs/aiturazenindoushoukai"
           element={
-            <SongInfoPage
+            <SongDetail
               img="https://i.ytimg.com/vi/ZUwaudw8ht0/hq720.jpg"
               name="あいつら全員同窓会"
               vocal="ACAね"
