@@ -1,5 +1,5 @@
 import SongCard from "./songcard";
-import routes from "../routes";
+// import routes from "../routes";
 
 export default function SongTop10() {
   return (
@@ -10,25 +10,25 @@ export default function SongTop10() {
           <SongCard
             name="ハロ/ハワユ"
             img="https://i.ytimg.com/vi/-M4sAQYi6r4/hqdefault.jpg"
-            link="/songs/helohowareyou"
+            link=""
             artist="Nanou"
             eng="Hello/How are you"
           />
           <SongCard
             name="くうになる"
             img="https://i.ytimg.com/vi/f6TytcA47rI/hq720.jpg"
-            link="/songs/kuuninaru"
+            link=""
             eng="Becoming Empty"
             artist="MIMI"
-            artistimg="https://yt3.googleusercontent.com/ytc/AIdro_l4OX9vLQEk_TYhJhkefP5QVN38gYAsC0RW7tjXR2ayJn0"
-            artistlink="https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA"
+            // artistimg="https://yt3.googleusercontent.com/ytc/AIdro_l4OX9vLQEk_TYhJhkefP5QVN38gYAsC0RW7tjXR2ayJn0"
+            // artistlink="https://www.youtube.com/channel/UCam3IAA-nyfxRL8_wDQ35VA"
           />
           <SongCard
             name="あいつら全員同窓会"
             img="https://i.ytimg.com/vi/ZUwaudw8ht0/hq720.jpg"
-            link="/songs/aiturazenindoushoukai"
+            link=""
             eng="Inside Joke"
-            artist="Zutomayo/ずっと真夜中でいいのに"
+            // artist="Zutomayo/ずっと真夜中でいいのに"
             artistlink="https://www.youtube.com/channel/UCv6P5nsS9rP4tDtFlqLU_QQ"
           />
           <SongCard
